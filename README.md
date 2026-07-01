@@ -1,4 +1,4 @@
-A Windows-based screen time tracker built purely with Python that works on your terminal.
+A Windows-based screen time tracker built purely with Python that works on your terminal (Local and private, data never leaves you device).
 
 simple but effective features  -
     - Active window tracking
