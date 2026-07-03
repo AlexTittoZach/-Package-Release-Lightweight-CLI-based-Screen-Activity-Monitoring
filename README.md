@@ -61,11 +61,8 @@ tracker.lock
 ## Privacy
 
 ScreenTracker works completely offline.
-- No cloud storage
-- No telemetry
-- No user accounts
-- No external APIs
-- No data leaves your computer
+- No cloud storage, no user accounts, no external APIs, no data leaves your computer
+- Works silently in terminal
 
 ## Requirements
 
