@@ -17,7 +17,11 @@ Track application usage, coding time, productivity, idle time, and daily activit
 
 ## Installation
 
-Simply install the release package file and run ``` screentracker ``` that's it
+Simply install the release package file and run 
+```bash
+screentracker
+ ```
+thats it
 
 ## OR
 
