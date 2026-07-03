@@ -18,28 +18,15 @@ Track application usage, coding time, productivity, idle time, and daily activit
 ## Installation
 
 Clone the repository:
-
 ```bash
 git clone https://github.com/AlexTittoZach/Lightweight-CLI-based-Screen-Activity-Monitoring.git
 cd Lightweight-CLI-based-Screen-Activity-Monitoring
 ```
-
 Install the package:
-
 ```bash
 pip install .
 ```
-
-## Usage
-
-Start ScreenTracker:
-
-```bash
-screentracker
-```
-
-or
-
+Start ScreenTracker by:
 ```bash
 python -m screentracker.tracker
 ```
