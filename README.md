@@ -1,23 +1,83 @@
-A Windows-based screen time tracker built purely with Python that works on your terminal (Local and private, data never leaves you device).
+# ScreenTracker
 
-simple but effective features  -
-    - Active window tracking
-    - Application usage monitoring
-    - Idle detection
-    - Productivity analytics
-    - Live terminal dashboard
-    - Hourly activity heatmap
+A lightweight, privacy-first screen activity tracker for Windows.
+Track application usage, coding time, productivity, idle time, and daily activity patterns directly on your machine.
 
-Installation -
-    pip install -r requirements.txt
-(no worries few dependencies only needed)
+## Features
 
-RUN -
-    screentracker
+- Real-time application tracking
+- Automatic idle time detection
+- Productivity score calculation
+- Coding time tracking
+- Top applications and activities
+- Hourly activity heatmap
+- Local SQLite database storage
+- Single-instance protection
+- Fully offline and privacy-friendly
 
+## Installation
 
-Initially planned to make it as a package so any windows user can access using pip install, will share updates later. 
+Clone the repository:
 
+```bash
+git clone https://github.com/AlexTittoZach/Lightweight-CLI-based-Screen-Activity-Monitoring.git
+cd Lightweight-CLI-based-Screen-Activity-Monitoring
+```
 
+Install the package:
 
+```bash
+pip install .
+```
 
+## Usage
+
+Start ScreenTracker:
+
+```bash
+screentracker
+```
+
+or
+
+```bash
+python -m screentracker.tracker
+```
+
+## Data Storage
+
+All data is stored locally:
+
+```text
+C:\Users\<username>\AppData\Local\ScreenTracker
+```
+
+Files:
+```text
+usage.db
+tracker.lock
+```
+
+## Privacy
+
+ScreenTracker works completely offline.
+- No cloud storage
+- No telemetry
+- No user accounts
+- No external APIs
+- No data leaves your computer
+
+## Requirements
+
+- Windows 10 / 11
+- Python 3.10+
+
+## Tech Stack
+
+- Python
+- SQLite
+- Rich
+- psutil
+- pywin32
+  
+## Author - Alex Titto Zacharias
