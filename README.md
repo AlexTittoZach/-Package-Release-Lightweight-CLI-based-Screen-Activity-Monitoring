@@ -17,6 +17,10 @@ Track application usage, coding time, productivity, idle time, and daily activit
 
 ## Installation
 
+Simmply install the release package file and run ```bash screentracker ``` that's it
+
+## OR
+
 Clone the repository:
 ```bash
 git clone https://github.com/AlexTittoZach/Lightweight-CLI-based-Screen-Activity-Monitoring.git
