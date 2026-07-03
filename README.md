@@ -1,23 +1,21 @@
 # ScreenTracker
 
+(currently runs on windows only)
 A lightweight, privacy-first screen activity tracker for Windows.
 Track application usage, coding time, productivity, idle time, and daily activity patterns directly on your machine.
 
 ## Features
+Multiple instance running is also locked to avoid db conflict.
 
-- Real-time application tracking
-- Automatic idle time detection
+- Real-time application tracking, idle time detection, Coding time tracking
 - Productivity score calculation
-- Coding time tracking
 - Top applications and activities
 - Hourly activity heatmap
-- Local SQLite database storage
-- Single-instance protection
 - Fully offline and privacy-friendly
 
 ## Installation
 
-Simply install the release package file and run 
+Simply open you CMD install the release package file (pip install screentracker-0.1.0-py3-none-any.whl) and run 
 ```bash
 screentracker
  ```
